@@ -113,10 +113,10 @@ parameters[1,:]=np.array([p.N_high,p.b_high,p.K_high,p.fit_param_high,p.E_b_high
 ##frac_weak=0.0
 ##frac_weak=p.frac_weak
 #%#non deterministic step for assignning chain_type
-my_task_id = int(sys.argv[1])
-num_tasks = int(sys.argv[2])
+##my_task_id = int(sys.argv[1])
+##num_tasks = int(sys.argv[2])
 frac_weak_array_py=[0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
-frac_weak_array_py=frac_weak_array_py[my_task_id-1:len(frac_weak_array_py):num_tasks]      
+##frac_weak_array_py=frac_weak_array_py[my_task_id-1:len(frac_weak_array_py):num_tasks]      
 
 for frac_weak in frac_weak_array_py:
    '''
